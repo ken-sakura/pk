@@ -1,0 +1,11 @@
+[package]
+name = "pk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# マークダウンパース用
+pulldown-cmark = "0.10.0"
+
+# クリップボード操作用
+arboard = "3.4"
